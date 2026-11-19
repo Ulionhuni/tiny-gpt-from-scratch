@@ -202,7 +202,6 @@ def array_log(arr):
 # Step 64 - gather_correct_token_probs
 def gather_correct_token_probs(probs, targets):
     """Return probs[i, targets[i]] for each i, shape (B,)."""
-    # TODO: pick out the probability assigned to the correct next token for each batch row
     probs = np.asarray(probs)
     targets = np.asarray(targets)
     return probs[np.arange(probs.shape[0]), targets]
