@@ -31,7 +31,7 @@ python scaffold.py
 - [ ] **19.** scalar_broadcast_add
 - [ ] **20.** vector_matrix_broadcast_add
 - [ ] **21.** array_exp
-- [ ] **22.** array_log
+- [x] **22.** array_log
 - [ ] **23.** sum_all
 - [ ] **24.** sum_axis0
 - [ ] **25.** sum_axis1
