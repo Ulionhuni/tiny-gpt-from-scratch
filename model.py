@@ -211,7 +211,6 @@ import numpy as np
 
 def cross_entropy_loss(probs, targets):
     """Mean negative log-likelihood over a batch."""
-    # TODO: gather correct-token probs, take log, average the negatives
     correct = gather_correct_token_probs(probs, targets)
     log_probs = array_log(correct)
     return float(-np.mean(log_probs))
